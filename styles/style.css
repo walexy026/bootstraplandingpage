@@ -9,17 +9,72 @@
 
 body {
   font-size: 40px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+body .navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+  background-color: #f8f0e3;
+}
+
+body .container {
+  gap: 14vw;
+}
+
+body ul {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3vw;
 }
 
 body .navbar-light .navbar-nav .nav-link {
-  color: #000000;
+  color: #020636;
   font-weight: bolder;
   margin: auto;
 }
 
-.text1 {
-  color: #D65123 !important;
+body .d-flex .andriod {
+  background-color: #020636;
+  color: #fff;
+  border-radius: 15px;
+  line-height: 3vh;
+  padding-top: 5px;
+  font-size: 13px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  width: 120px;
+}
+
+body .d-flex .andriod img {
+  padding-top: 11px;
+}
+
+body .d-flex .andriod p {
+  text-decoration: none;
+  color: #eee;
+}
+
+body .d-flex .iphone1 {
+  width: 120px;
+  font-size: 13px;
+  border-radius: 15px;
+  line-height: 3vh;
+  padding-top: 5px;
+  margin-left: 15px;
+  background-color: transparent;
+  border: 3px solid #020636;
+  padding: 6px;
+}
+
+body .d-flex .iphone1 p {
+  color: #020636;
 }
 
 .firstsection {
@@ -29,7 +84,7 @@ body .navbar-light .navbar-nav .nav-link {
 }
 
 .dressing {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   border-radius: 15px;
   width: 70%;
   border-top: 5px;
@@ -46,8 +101,11 @@ footer img {
 
 footer li {
   list-style-type: none;
-  text-decoration: none;
   color: #fff;
+}
+
+footer li a {
+  text-decoration: none;
 }
 
 footer .copyright {
@@ -69,7 +127,8 @@ footer .copyright {
   transition: 0.4s;
 }
 
-.active, .accordion:hover {
+.active,
+.accordion:hover {
   background-color: #ccc;
 }
 
@@ -83,7 +142,7 @@ footer .copyright {
 }
 
 .accordion:after {
-  content: '\02795';
+  content: "\02795";
   /* Unicode character for "plus" sign (+) */
   font-size: 13px;
   color: #777;
