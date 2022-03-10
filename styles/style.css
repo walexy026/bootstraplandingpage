@@ -1,5 +1,9 @@
-a {
-  color: #020636;
+.text1 {
+  color: brown;
+}
+
+footer {
+  background-color: bisque;
 }
 
 .accordion {
@@ -15,16 +19,8 @@ a {
   transition: 0.4s;
 }
 
-.active,
-.accordion:hover {
+.active, .accordion:hover {
   background-color: #ccc;
-}
-
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
 }
 
 .panel {
@@ -37,7 +33,7 @@ a {
 }
 
 .accordion:after {
-  content: "\02795";
+  content: '\02795';
   /* Unicode character for "plus" sign (+) */
   font-size: 13px;
   color: #777;
@@ -49,8 +45,4 @@ a {
   content: "\2796";
   /* Unicode character for "minus" sign (-) */
 }
-
-footer {
-  background-color: #444;
-}
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=style.css.map */
