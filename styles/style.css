@@ -83,11 +83,63 @@ body .d-flex .iphone1 p {
   padding-top: 15vh;
 }
 
-.dressing {
-  background-color: #e5e5e5;
+.firstsection .d-flex .andriod2 {
+  width: 120px;
+  font-size: 13px;
+  border-radius: 15px;
+  line-height: 3vh;
+  padding-top: 5px;
+  margin-left: 15px;
+  background-color: #f8f0e3;
+  border: 3px solid #020636;
+  padding: 6px;
+  color: #020636;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: auto;
+}
+
+.firstsection .d-flex .iphone2 {
+  width: 120px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  font-size: 13px;
+  border-radius: 15px;
+  line-height: 3vh;
+  padding-top: 5px;
+  margin-left: 15px;
+  background-color: #d65123;
+  border: 3px solid #020636;
+  padding: 6px;
+}
+
+.firstsection .circle {
+  border: 2px solid #d65123;
+  border-radius: 200%;
+  font-size: larger;
+}
+
+.firstsection strong {
+  color: #d65123;
+}
+
+.firstsection .dressing {
+  background-color: #f8f0e380;
   border-radius: 15px;
   width: 70%;
   border-top: 5px;
+}
+
+.firstsection .dressing img {
+  padding-right: 10px;
+  padding-left: 5px;
+}
+
+.firstsection .dressing p {
+  margin: 0;
 }
 
 footer {

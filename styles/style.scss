@@ -22,21 +22,19 @@ body {
     background-color: #f8f0e3;
   }
 
-  .container{
+  .container {
     gap: 14vw;
   }
 
-  ul{
-
+  ul {
     align-items: center;
-    display: flex; 
-    gap: 3vw
+    display: flex;
+    gap: 3vw;
   }
   .navbar-light .navbar-nav .nav-link {
     color: #020636;
     font-weight: bolder;
     margin: auto;
-
   }
 
   .d-flex .andriod {
@@ -74,22 +72,66 @@ body {
   }
 }
 
-// .text1{
-//     color : #D65123 !important;
-
-// }
 .firstsection {
   background-color: #020636;
   color: #fff;
   padding-top: 15vh;
-}
-.dressing {
-  background-color: #e5e5e5;
-  border-radius: 15px;
-  width: 70%;
-  border-top: 5px;
-}
 
+  .d-flex .andriod2 {
+    width: 120px;
+    font-size: 13px;
+    border-radius: 15px;
+    line-height: 3vh;
+    padding-top: 5px;
+    margin-left: 15px;
+    background-color: #f8f0e3;
+    border: 3px solid #020636;
+    padding: 6px;
+    color: #020636;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    width: auto;
+  }
+  .d-flex .iphone2 {
+    width: 120px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    font-size: 13px;
+    border-radius: 15px;
+    line-height: 3vh;
+    padding-top: 5px;
+    margin-left: 15px;
+    background-color: #d65123;
+    border: 3px solid #020636;
+    padding: 6px;
+  }
+  .circle {
+        border: 2px solid #d65123;
+        border-radius: 200%;
+        font-size: larger;
+      }
+      strong{
+        color: #d65123;
+      }
+
+  .dressing {
+    background-color: #f8f0e380;
+    border-radius: 15px;
+    width: 70%;
+    border-top: 5px;
+    img {
+      padding-right: 10px;
+      padding-left: 5px;
+    }
+    p {
+      margin: 0;
+    }
+     
+      
+    
+  }
+}
 footer {
   background-color: #020636;
   color: #fff;
