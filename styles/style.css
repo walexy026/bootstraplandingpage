@@ -115,10 +115,13 @@ body .d-flex .iphone1 p {
   padding: 6px;
 }
 
+.firstsection h4 {
+  font-size: 48px;
+}
+
 .firstsection .circle {
   border: 2px solid #d65123;
   border-radius: 200%;
-  font-size: larger;
 }
 
 .firstsection strong {

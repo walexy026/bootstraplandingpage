@@ -106,10 +106,12 @@ body {
     border: 3px solid #020636;
     padding: 6px;
   }
+  h4{
+    font-size: 48px;
+  }
   .circle {
         border: 2px solid #d65123;
         border-radius: 200%;
-        font-size: larger;
       }
       strong{
         color: #d65123;
@@ -132,10 +134,7 @@ body {
     }
     p {
       margin: 0;
-    }
-     
-      
-    
+    }  
   }
 }
 footer {
