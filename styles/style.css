@@ -196,6 +196,11 @@ body .d-flex .iphone1 p {
   color: #f8f0e3;
 }
 
+.sectionthree .list ul {
+  list-style-type: none;
+  display: inline;
+}
+
 footer {
   background-color: #020636;
   color: #fff;
