@@ -107,27 +107,25 @@ body {
     border: 3px solid #020636;
     padding: 6px;
     width: auto;
-
   }
-  h4{
+  h4 {
     font-size: 48px;
     padding-bottom: 5vh;
   }
   .circle {
-        border: 2px solid #d65123;
-        border-radius: 200%;
-      }
-      strong{
-        color: #d65123;
-      }
-      h6{
-        font-size: small;
-        color: #F8F0E3CC;
-        font-weight: bold;
-        line-height: 2vh;
-        padding-bottom: 3vh;
-
-      }
+    border: 2px solid #d65123;
+    border-radius: 200%;
+  }
+  strong {
+    color: #d65123;
+  }
+  h6 {
+    font-size: small;
+    color: #f8f0e3cc;
+    font-weight: bold;
+    line-height: 2vh;
+    padding-bottom: 3vh;
+  }
 
   .dressing {
     background-color: #f8f0e380;
@@ -140,16 +138,15 @@ body {
     }
     p {
       margin: 0;
-    }  
+    }
   }
 }
-.sectiontwo{
+.sectiontwo {
   color: #020636;
   font-weight: bold;
-  background-color:#F8F0E3;
-  ;
-  .phone{
-transform: translateY(-15vh);
+  background-color: #f8f0e3;
+  .phone {
+    transform: translateY(-15vh);
   }
   .d-flex .andriod3 {
     // width: 180px;
@@ -175,19 +172,61 @@ transform: translateY(-15vh);
     line-height: 3vh;
     padding-top: 5px;
     margin-left: 15px;
-    background-color:  #020636;
+    background-color: #020636;
     border: 3px solid #020636;
     padding: 6px;
     color: #f8f0e3;
   }
 }
-.sectionthree{
-  .list{
-    
-    ul{
+.sectionthree {
+  background-color: #f8f0e3;
+  padding-top: 15vh;
+  h4 {
+    color: #020636;
+    font-family: Nunito Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    // line-height: 50px;
+    // letter-spacing: 0em;
+    text-align: left;
+    padding-left: 10px;
+  }
+  p {
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .list {
+    ul {
+      font-family: Nunito Sans;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
       list-style-type: none;
       display: inline;
     }
+  }
+  .btn {
+    background-color: #020636;
+    color: #eee;
+    width: 50vh;
+    border-radius: 10px;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
   }
 }
 footer {

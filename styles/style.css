@@ -132,7 +132,7 @@ body .d-flex .iphone1 p {
 
 .firstsection h6 {
   font-size: small;
-  color: #F8F0E3CC;
+  color: #f8f0e3cc;
   font-weight: bold;
   line-height: 2vh;
   padding-bottom: 3vh;
@@ -157,7 +157,7 @@ body .d-flex .iphone1 p {
 .sectiontwo {
   color: #020636;
   font-weight: bold;
-  background-color: #F8F0E3;
+  background-color: #f8f0e3;
 }
 
 .sectiontwo .phone {
@@ -196,9 +196,55 @@ body .d-flex .iphone1 p {
   color: #f8f0e3;
 }
 
+.sectionthree {
+  background-color: #f8f0e3;
+  padding-top: 15vh;
+}
+
+.sectionthree h4 {
+  color: #020636;
+  font-family: Nunito Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.sectionthree p {
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
 .sectionthree .list ul {
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
   list-style-type: none;
   display: inline;
+}
+
+.sectionthree .btn {
+  background-color: #020636;
+  color: #eee;
+  width: 50vh;
+  border-radius: 10px;
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
 }
 
 footer {
