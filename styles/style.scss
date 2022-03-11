@@ -15,7 +15,7 @@ body {
   color: #020636;
 
   .navbar {
-    // justify-content: space-evenly;
+    justify-content: space-evenly;
     position: fixed;
     width: 100%;
     top: 0;
@@ -231,6 +231,10 @@ body {
 }
 .sectionfour {
   background-color: #020636;
+  background-image: url("/styles/img/ark.svg"),url("/styles/img/arkdown.svg"),url("/styles/img/Rectangleup.svg"),url("/styles/img/circleup.svg");
+  background-repeat: no-repeat;
+  background-position: right top, left bottom, 10% 0%,90% -25%;
+  background-size: 50%,50%,5%,20%;
   h4 {
     font-family: Nunito Sans;
     font-style: normal;
@@ -287,25 +291,6 @@ body {
 .faq{
   background-color: #f8f0e3;
 }
-footer {
-  background-color: #020636;
-  color: #fff;
-
-  img {
-    width: 30px;
-  }
-
-  li {
-    list-style-type: none;
-    color: #fff;
-    a {
-      text-decoration: none;
-    }
-  }
-  .copyright {
-    justify-content: space-between;
-  }
-}
 .accordion {
   background-color: #f8f0e3;
   color: #020636;
@@ -317,7 +302,7 @@ footer {
   outline: none;
   transition: 0.4s;
 }
-.active,
+.active
 .accordion:hover {
   background-color: #ccc;
 }
@@ -338,3 +323,19 @@ footer {
 .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
+  footer {
+    background-color: #020636;
+    color: #fff;
+
+  
+    li {
+      list-style-type: none;
+      color: #fff;
+      a {
+        text-decoration: none;
+      }
+    }
+    .copyright {
+      justify-content: space-between;
+    }
+  }

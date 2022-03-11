@@ -14,6 +14,9 @@ body {
 }
 
 body .navbar {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   position: fixed;
   width: 100%;
   top: 0;
@@ -249,6 +252,10 @@ body .d-flex .iphone1 p {
 
 .sectionfour {
   background-color: #020636;
+  background-image: url("/styles/img/ark.svg"), url("/styles/img/arkdown.svg"), url("/styles/img/Rectangleup.svg"), url("/styles/img/circleup.svg");
+  background-repeat: no-repeat;
+  background-position: right top, left bottom, 10% 0%,90% -25%;
+  background-size: 50%,50%,5%,20%;
 }
 
 .sectionfour h4 {
@@ -311,30 +318,6 @@ body .d-flex .iphone1 p {
   background-color: #f8f0e3;
 }
 
-footer {
-  background-color: #020636;
-  color: #fff;
-}
-
-footer img {
-  width: 30px;
-}
-
-footer li {
-  list-style-type: none;
-  color: #fff;
-}
-
-footer li a {
-  text-decoration: none;
-}
-
-footer .copyright {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
 .accordion {
   background-color: #f8f0e3;
   color: #020636;
@@ -348,7 +331,7 @@ footer .copyright {
   transition: 0.4s;
 }
 
-.active,
+.active
 .accordion:hover {
   background-color: #ccc;
 }
@@ -374,5 +357,25 @@ footer .copyright {
 .active:after {
   content: "\2796";
   /* Unicode character for "minus" sign (-) */
+}
+
+footer {
+  background-color: #020636;
+  color: #fff;
+}
+
+footer li {
+  list-style-type: none;
+  color: #fff;
+}
+
+footer li a {
+  text-decoration: none;
+}
+
+footer .copyright {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=style.css.map */
