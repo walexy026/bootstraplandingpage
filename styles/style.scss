@@ -229,6 +229,64 @@ body {
     text-align: center;
   }
 }
+.sectionfour {
+  background-color: #020636;
+  h4 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    text-align: center;
+    color: #f8f0e3;
+  }
+  p {
+    font-family: Nunito Sans;
+    font-style: normal;
+    // font-weight: 400;
+    // line-height: 26px;
+    text-align: center;
+    color: #f8f0e3cc;
+  }
+  .playstore {
+    gap: 3vw;
+  }
+  .d-flex .andriod4 {
+    // width: 180px;
+    font-size: 13px;
+    border-radius: 15px;
+    line-height: 3vh;
+    padding-top: 5px;
+    background-color: #d65123;
+    border: 3px solid #d65123;
+    padding: 6px;
+    // color: #020636 !important;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    width: auto;
+  }
+  .d-flex .iphone4 {
+    // width: 180px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    font-size: 13px;
+    border-radius: 15px;
+    line-height: 3vh;
+    padding-top: 5px;
+    margin-left: 15px;
+    background-color: #f8f0e3;
+    border: 3px solid #020636;
+    padding: 6px;
+    p {
+      color: #020636;
+    }
+  }
+  .iphonerotate {
+    margin: auto !important;
+    display: block;
+  }
+}
+.faq{
+  background-color: #f8f0e3;
+}
 footer {
   background-color: #020636;
   color: #fff;
@@ -249,13 +307,13 @@ footer {
   }
 }
 .accordion {
-  background-color: #eee;
-  color: #444;
+  background-color: #f8f0e3;
+  color: #020636;
   cursor: pointer;
   padding: 18px;
   width: 100%;
   text-align: left;
-  border: none;
+  border: 1px solid #020636;
   outline: none;
   transition: 0.4s;
 }
