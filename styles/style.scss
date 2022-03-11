@@ -12,6 +12,7 @@
 body {
   font-size: 40px;
   font-family: "Poppins", sans-serif;
+  color: #020636;
 
   .navbar {
     // justify-content: space-evenly;
@@ -76,14 +77,14 @@ body {
   background-color: #020636;
   color: #fff;
   padding-top: 15vh;
+  padding-bottom: 20vh;
 
   .d-flex .andriod2 {
-    width: 150px;
+    // width: 150px;
     font-size: 13px;
     border-radius: 15px;
     line-height: 3vh;
     padding-top: 5px;
-    // margin-left: 15px;
     background-color: #f8f0e3;
     border: 3px solid #020636;
     padding: 6px;
@@ -94,7 +95,7 @@ body {
     width: auto;
   }
   .d-flex .iphone2 {
-    width: 150px;
+    // width: 150px;
     padding-right: 5px;
     padding-bottom: 5px;
     font-size: 13px;
@@ -105,9 +106,12 @@ body {
     background-color: #d65123;
     border: 3px solid #020636;
     padding: 6px;
+    width: auto;
+
   }
   h4{
     font-size: 48px;
+    padding-bottom: 5vh;
   }
   .circle {
         border: 2px solid #d65123;
@@ -117,9 +121,11 @@ body {
         color: #d65123;
       }
       h6{
-        font-size: xx-small;
+        font-size: small;
         color: #F8F0E3CC;
         font-weight: bold;
+        line-height: 2vh;
+        padding-bottom: 3vh;
 
       }
 
@@ -137,6 +143,45 @@ body {
     }  
   }
 }
+.sectiontwo{
+  color: #020636;
+  font-weight: bold;
+  background-color:#F8F0E3;
+  ;
+  .phone{
+transform: translateY(-15vh);
+  }
+  .d-flex .andriod3 {
+    // width: 180px;
+    font-size: 13px;
+    border-radius: 15px;
+    line-height: 3vh;
+    padding-top: 5px;
+    background-color: #d65123;
+    border: 3px solid #d65123;
+    padding: 6px;
+    color: #020636 !important;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    width: auto;
+  }
+  .d-flex .iphone3 {
+    // width: 180px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    font-size: 13px;
+    border-radius: 15px;
+    line-height: 3vh;
+    padding-top: 5px;
+    margin-left: 15px;
+    background-color:  #020636;
+    border: 3px solid #020636;
+    padding: 6px;
+    color: #f8f0e3;
+  }
+}
+
 footer {
   background-color: #020636;
   color: #fff;
