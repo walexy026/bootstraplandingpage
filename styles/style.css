@@ -120,7 +120,7 @@ body .d-flex .iphone1 p {
 }
 
 .firstsection h4 {
-  font-size: 48px;
+  font-size: 7vh;
   padding-bottom: 5vh;
 }
 
@@ -136,8 +136,7 @@ body .d-flex .iphone1 p {
 .firstsection h6 {
   font-size: small;
   color: #f8f0e3cc;
-  font-weight: bold;
-  line-height: 2vh;
+  line-height: 2;
   padding-bottom: 3vh;
 }
 
@@ -145,7 +144,8 @@ body .d-flex .iphone1 p {
   background-color: #f8f0e380;
   border-radius: 15px;
   width: 70%;
-  border-top: 5px;
+  border-top: 50px;
+  margin-top: 20vh;
 }
 
 .firstsection .dressing img {
@@ -157,9 +157,12 @@ body .d-flex .iphone1 p {
   margin: 0;
 }
 
+.firstsection .casual {
+  padding-top: 20vh;
+}
+
 .sectiontwo {
   color: #020636;
-  font-weight: bold;
   background-color: #f8f0e3;
 }
 
@@ -209,31 +212,15 @@ body .d-flex .iphone1 p {
   font-family: Nunito Sans;
   font-size: 40px;
   font-style: normal;
-  font-weight: 700;
   text-align: left;
   padding-left: 10px;
 }
 
 .sectionthree p {
   font-family: Nunito Sans;
-  font-size: 18px;
   font-style: normal;
-  font-weight: 600;
   line-height: 24px;
-  letter-spacing: 0em;
   text-align: left;
-}
-
-.sectionthree .list ul {
-  font-family: Nunito Sans;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
-  list-style-type: none;
-  display: inline;
 }
 
 .sectionthree .btn {
@@ -254,8 +241,8 @@ body .d-flex .iphone1 p {
   background-color: #020636;
   background-image: url("/styles/img/ark.svg"), url("/styles/img/arkdown.svg"), url("/styles/img/Rectangleup.svg"), url("/styles/img/circleup.svg");
   background-repeat: no-repeat;
-  background-position: right top, left bottom, 10% 0%,90% -25%;
-  background-size: 50%,50%,5%,20%;
+  background-position: right top, left bottom, 10% 0%,right -25%;
+  background-size: 20%,20%,5%,50%;
 }
 
 .sectionfour h4 {
