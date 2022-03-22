@@ -36,8 +36,13 @@ body {
     color: #020636;
     font-weight: bolder;
     margin: auto;
+  } 
+  @media screen and (max-width: 780px) {
+    .playstore{
+      display: none!important;
+    }
   }
-
+   
   .d-flex .andriod {
     background-color: #020636;
     color: #fff;

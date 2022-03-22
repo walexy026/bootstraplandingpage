@@ -44,6 +44,12 @@ body .navbar-light .navbar-nav .nav-link {
   margin: auto;
 }
 
+@media screen and (max-width: 780px) {
+  body .playstore {
+    display: none !important;
+  }
+}
+
 body .d-flex .andriod {
   background-color: #020636;
   color: #fff;
